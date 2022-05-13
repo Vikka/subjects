@@ -85,3 +85,26 @@ Create a function is_capitalize() that takes a string and returns True if each w
     Hint:
         - Good luck!
 ```
+
+Exercice 5:
+```txt
+Create a function my_count() that takes a string and a character as parameters
+and return the number of occurence of the character in the string.
+
+    Exemple:
+        >>> my_count("HELLO\0", "H")
+        1
+        >>> my_count("HELLO\0", "l")
+        2
+        >>> my_count("HELLO\0", "z")
+        0
+        >>> my_count("\0", "z")
+        0
+        >>> my_count("Hello\0", "")
+        0
+
+    Hint:
+        - "x" == "x" => True
+        - "x" == "y" => False
+        - "Hello"[0] => True
+```
