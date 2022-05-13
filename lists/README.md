@@ -1,6 +1,6 @@
 # lists
 
-Exercice 1:
+exercise 1:
 
 ```txt
 Create a function "my_list" that takes one integer as size and returns a list of that size
@@ -22,7 +22,7 @@ considered as the end of the list. Negative values will be considered as 0.
         ... as "ellipsis" (eg. print(...) display 'ellipsis').
 ```
 
-Exercice 2:
+exercise 2:
 ```txt
 Create a function "my_sum" that takes a list of integers as argument and returns the sum of
     all the elements of the list. If the list is empty, return 0.
@@ -37,7 +37,7 @@ Create a function "my_sum" that takes a list of integers as argument and returns
         - While is your friend: https://youtu.be/jSs58VZVLw8
         - Remember, you aren't allowed to use break statements.
 ```
-Exercice 3:
+exercise 3:
 ```txt
 Create a function "my_insert" that takes a list and a value as arguments and returns a new list
     that is the concatenation of the two lists. Be careful, the type of the inserted value must be
@@ -56,7 +56,7 @@ Create a function "my_insert" that takes a list and a value as arguments and ret
         - my_list will be useful :D
         - Also, remember how you added the ellipsis at the end of the list in my_list.
 ```
-Exercice 4:
+exercise 4:
 ```txt
 Create a function "my_concat" that takes two lists as arguments and returns a new list
     that is the concatenation of the two lists. Be careful, the type of the inserted value must be

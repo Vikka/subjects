@@ -1,6 +1,6 @@
 # str
 
-Exercice 1:
+exercise 1:
 
 ```txt
 Create a function string_length() that takes a string as argument and returns the length of the
@@ -22,7 +22,7 @@ Create a function string_length() that takes a string as argument and returns th
         - No, you can name the function "SarahConnor".
 ```
 
-Exercice 2:
+exercise 2:
 
 ```txt
 Create a function reverse_string() that takes a string as argument and returns the string in
@@ -46,7 +46,7 @@ Create a function reverse_string() that takes a string as argument and returns t
         end of the string.
 ```
 
-Exercice 3:
+exercise 3:
 
 ```txt
 Create a function is_uppercase() that takes a string and returns True if the string is in
@@ -70,7 +70,7 @@ Create a function is_uppercase() that takes a string and returns True if the str
         chr() to get the character from an integer? Example: ord('a') => 97, chr(97) => 'a'
 ```
 
-Exercice 4:
+exercise 4:
 
 ```txt
 Create a function is_capitalize() that takes a string and returns True if each words of the
@@ -92,7 +92,7 @@ Create a function is_capitalize() that takes a string and returns True if each w
         - Good luck!
 ```
 
-Exercice 5:
+exercise 5:
 
 ```txt
 Create a function my_count() that takes a string and a character as parameters
@@ -116,7 +116,7 @@ and return the number of occurence of the character in the string.
         - "Hello"[0] => True
 ```
 
-Exercice 6:
+exercise 6:
 
 ```txt
 Create a function my_split() that takes a string and returns the number 

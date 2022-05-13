@@ -1,6 +1,6 @@
 # Functions
 
-Exercice 1:
+exercise 1:
 ```txt
 Create a function "my_add" that takes two integers and returns their sum.
 
@@ -14,7 +14,7 @@ Create a function "my_add" that takes two integers and returns their sum.
           try to make it work.
         - https://youtu.be/u-OmVr_fT4s
 ```
-Exercice 2:
+exercise 2:
 ```txt
 Create a function "my_sum" that takes 4 integers and returns their sum.
 

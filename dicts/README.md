@@ -1,6 +1,6 @@
 # dict
 
-Exercice 1:
+exercise 1:
 ```txt
 ...
 
