@@ -1,6 +1,7 @@
 # str
 
 Exercice 1:
+
 ```txt
 Create a function string_length() that takes a string as argument and returns the length of the
     string. '\0' is a character that represents the end of a string. It's a SINGLE character.
@@ -20,7 +21,9 @@ Create a function string_length() that takes a string as argument and returns th
         See https://stackoverflow.com/a/4711475/6251742
         - No, you can name the function "SarahConnor".
 ```
+
 Exercice 2:
+
 ```txt
 Create a function reverse_string() that takes a string as argument and returns the string in
     reverse.
@@ -44,6 +47,7 @@ Create a function reverse_string() that takes a string as argument and returns t
 ```
 
 Exercice 3:
+
 ```txt
 Create a function is_uppercase() that takes a string and returns True if the string is in
     uppercase. If the string is empty, return False.
@@ -65,7 +69,9 @@ Create a function is_uppercase() that takes a string and returns True if the str
         - Do you know that you can use ord() to get the ascii value of a character and
         chr() to get the character from an integer? Example: ord('a') => 97, chr(97) => 'a'
 ```
+
 Exercice 4:
+
 ```txt
 Create a function is_capitalize() that takes a string and returns True if each words of the
     string is capitalized. If the string is empty, return False.
@@ -87,6 +93,7 @@ Create a function is_capitalize() that takes a string and returns True if each w
 ```
 
 Exercice 5:
+
 ```txt
 Create a function my_count() that takes a string and a character as parameters
 and return the number of occurence of the character in the string.
@@ -107,4 +114,27 @@ and return the number of occurence of the character in the string.
         - "x" == "x" => True
         - "x" == "y" => False
         - "Hello"[0] => True
+```
+
+Exercice 6:
+
+```txt
+Create a function my_split() that takes a string and returns the number 
+of words inside the string. A word is a sequence of characters separated by a 
+space. Special characters are considered as part of a word.
+
+    Exemple:
+        >>> my_split("Hello World\0") 
+        2
+        >>> my_split("Hello\0")
+        1
+        >>> my_split("\0")    
+        0
+        >>> my_split("Hello! World\0")
+        2
+        >>> my_split("Hello World !\0")
+        3
+
+    Hint:
+        - No idea how to help you for this one yet.
 ```
