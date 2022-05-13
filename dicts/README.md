@@ -9,4 +9,7 @@ exercise 1:
         ...
 
     Hint:
-        - ...```
+        - ...
+```
+
+###### Copyright © 2022 Dorian Turba

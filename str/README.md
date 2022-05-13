@@ -141,3 +141,5 @@ space. Special characters are considered as part of a word.
     Hint:
         - No idea how to help you for this one yet.
 ```
+
+###### Copyright © 2022 Dorian Turba

@@ -75,3 +75,5 @@ Create a function "my_concat" that takes two lists as arguments and returns a ne
         - If you can't increase the size of a list, maybe you should create a bigger one and
         do stuff with it?
 ```
+
+###### Copyright © 2022 Dorian Turba

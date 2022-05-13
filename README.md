@@ -32,3 +32,6 @@
 
 - [pythontutor, understand python memory](https://pythontutor.com/)
 - [Codingame](https://www.codingame.com/home)
+
+
+###### Copyright © 2022 Dorian Turba
