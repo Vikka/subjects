@@ -1,11 +1,6 @@
-==============================================================================
+# Rules
 
-    Rules
-
-==============================================================================
-
-Forbidden python features
--------------------------
+## Forbidden python features
 - imports,
 - from imports,
 - defining functions with builtin names,

@@ -1,10 +1,8 @@
-==============================================================================
+# Functions
 
-    Functions
-
-==============================================================================
 Exercice 1:
-    Create a function "my_add" that takes two integers and returns their sum.
+```txt
+Create a function "my_add" that takes two integers and returns their sum.
 
     Exemple:
         >>> my_add(1, 2)
@@ -15,9 +13,10 @@ Exercice 1:
         - This function is a training function, it won't be very useful later, but at least you can
           try to make it work.
         - https://youtu.be/u-OmVr_fT4s
-
+```
 Exercice 2:
-    Create a function "my_sum" that takes 4 integers and returns their sum.
+```txt
+Create a function "my_sum" that takes 4 integers and returns their sum.
 
     Exemple:
         >>> my_sum(1, 2, 3, 4)
@@ -31,3 +30,4 @@ Exercice 2:
           penalized with -10 points per call.
         - This function is a training function, it won't be very useful later, but at least you can
           try to make it work.
+```

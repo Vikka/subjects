@@ -1,10 +1,8 @@
-==============================================================================
+# str
 
-    str
-
-==============================================================================
 Exercice 1:
-    Create a function string_length() that takes a string as argument and returns the length of the
+```txt
+Create a function string_length() that takes a string as argument and returns the length of the
     string. '\0' is a character that represents the end of a string. It's a SINGLE character.
 
     Exemple:
@@ -21,9 +19,10 @@ Exercice 1:
         - Why \0? Because we will mimic the C NUL terminator.
         See https://stackoverflow.com/a/4711475/6251742
         - No, you can name the function "SarahConnor".
-
+```
 Exercice 2:
-    Create a function reverse_string() that takes a string as argument and returns the string in
+```txt
+Create a function reverse_string() that takes a string as argument and returns the string in
     reverse.
 
     Exemple:
@@ -42,9 +41,11 @@ Exercice 2:
         - Of course, you can't use reverse(), don't even think about it.
         - Did you noticed that the '\0' is not reversed? It's because it should always be at the
         end of the string.
+```
 
 Exercice 3:
-    Create a function is_uppercase() that takes a string and returns True if the string is in
+```txt
+Create a function is_uppercase() that takes a string and returns True if the string is in
     uppercase. If the string is empty, return False.
 
     Exemple:
@@ -63,9 +64,10 @@ Exercice 3:
         - Did you know the ascii table? No? Look at https://youtu.be/zB85kTs-sEw
         - Do you know that you can use ord() to get the ascii value of a character and
         chr() to get the character from an integer? Example: ord('a') => 97, chr(97) => 'a'
-
+```
 Exercice 4:
-    Create a function is_capitalize() that takes a string and returns True if each words of the
+```txt
+Create a function is_capitalize() that takes a string and returns True if each words of the
     string is capitalized. If the string is empty, return False.
 
     Exemple:
@@ -82,3 +84,4 @@ Exercice 4:
 
     Hint:
         - Good luck!
+```
