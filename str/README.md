@@ -33,9 +33,9 @@ Create a function reverse_string() that takes a string as argument and returns t
         'olleH\0'
         >>> reverse_string("\0")
         '\0'
-        >>> reverse_string("H")
+        >>> reverse_string("H\0")
         'H\0'
-        >>> reverse_string("Hello World")
+        >>> reverse_string("Hello World\0")
         'dlroW olleH\0'
 
     Hint:
