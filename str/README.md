@@ -96,7 +96,8 @@ exercise 5:
 
 ```txt
 Create a function my_count() that takes a string and a character as parameters
-and return the number of occurence of the character in the string.
+and return the number of occurence of the character in the string. This is 
+case insensitive, so "a" and "A" will be treated as the same character.
 
     Exemple:
         >>> my_count("HELLO\0", "H")
@@ -109,6 +110,8 @@ and return the number of occurence of the character in the string.
         0
         >>> my_count("Hello\0", "")
         0
+        >>> my_count("aaAA\0", "a")
+        4
 
     Hint:
         - "x" == "x" => True
