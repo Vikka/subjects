@@ -1,3 +1,27 @@
+# Logic training with Python
+
+## Setup
+
+Install requirements:
+
+```
+pip install -r requirements.txt
+```
+
+## How to run test suite
+
+### On all folders
+
+```
+python -m pytest
+```
+
+### On a specific folder
+
+```
+python -m pytest functions
+```
+
 # Rules
 
 ## Forbidden python features
