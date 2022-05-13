@@ -27,3 +27,8 @@
 - is and is not operator,
 - positional only arguments, keyword only arguments, keywords defaults arguments, defaults arguments, variadic arguments, variadic keyword arguments,
 - slices,
+
+# Useful links
+
+- [pythontutor, understand python memory](https://pythontutor.com/)
+- [Codingame](https://www.codingame.com/home)
