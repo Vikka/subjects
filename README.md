@@ -4,7 +4,8 @@ Usage of Internet is authorized.
 
 ## Setup
 
-Install requirements:
+[Install requirements][SA-install requirements.txt with pip] 
+(with [pip][pip tutorial on youtube]):
 
 ```
 pip install -r requirements.txt
@@ -67,7 +68,12 @@ python -m pytest
 
 # Useful links
 
-- [pythontutor, understand python memory](https://pythontutor.com/)
-- [Codingame](https://www.codingame.com/home)
+- [pythontutor, visualize python memory][pythontutor main page]
+- [Codingame.com][codingame main page]
 
 ###### Copyright © 2022 Dorian Turba
+
+[SA-install requirements.txt with pip]: https://stackoverflow.com/a/15593865/6251742
+[pip tutorial on youtube]: https://youtu.be/U2ZN104hIcc
+[pythontutor main page]: https://pythontutor.com/
+[codingame main page]: https://www.codingame.com/home
