@@ -2,3 +2,6 @@
 [tool.pytest.ini_options]
 minversion = "7.1.2"
 addopts = "--no-header -q --tb=short -rA"
+testpaths = [
+    "exercises/",
+]
