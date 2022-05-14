@@ -2,7 +2,7 @@ from random import randint
 
 from pytest import mark
 
-from helpers.custom_list import list_
+from custom_classes.custom_list import list_
 
 
 def get_list(result: list):
