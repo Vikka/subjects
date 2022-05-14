@@ -1,6 +1,6 @@
-from random import randint
+from random import randint, choice
+from string import ascii_letters
 
-import pytest
 from pytest import mark
 
 from custom_classes.custom_list import list_
@@ -48,14 +48,20 @@ def test_my_sum(module, integers):
 @mark.parametrize("original_list, value", [
     ([], randint(-1_000, 1_000)),
     ([randint(1, 10) for _ in range(randint(5, 100))], randint(-1_000, 1_000)),
+    ([choice(ascii_letters) for _ in range(randint(5, 100))],
+     choice(ascii_letters)),
+    ([randint(-5, 5)] * 2, choice(ascii_letters)),
 ])
 def test_my_insert(module, original_list, value):
     some_list = to_custom_list(original_list)
     result = module.my_insert(some_list, value)
-    expected = original_list + [value, ...]
+    expected = original_list + [value, ...] \
+        if len(some_list) <= 1 or isinstance(value, type(some_list[0])) \
+        else original_list + [...]
 
     def my_insert(_, __):
-        return result
+        return list(result)
 
     check_list(result)
     assert my_insert(some_list, value) == expected
+
