@@ -4,10 +4,10 @@ Usage of Internet is authorized.
 
 ## Setup
 
-[Install requirements][SA-install requirements.txt with pip] 
+[Install requirements][SA-install requirements.txt with pip]
 (with [pip][pip tutorial on youtube]):
 
-```
+```shell
 pip install -r requirements.txt
 ```
 
@@ -17,7 +17,9 @@ pip install -r requirements.txt
 
 This is an example, and a good start.
 
-```
+```shell
+pytest exercises/function
+# or
 python -m pytest exercises/function
 ```
 
@@ -26,7 +28,9 @@ python -m pytest exercises/function
 Note: You will get a lot of errors if not all required functions are
 implemented.
 
-```
+```shell
+pytest
+# or
 python -m pytest
 ```
 
@@ -66,6 +70,21 @@ python -m pytest
   arguments,
 - slices,
 
+## Respect PEP 8 style
+
+PEP 8 is a style guide for Python. You can find it [here][PEP 8 page].
+
+Since you aren't allowed to use some of python features, you should test your
+code with custom rules. This project has a `setup.cfg` file with
+a [flake8][flake8 page] configuration, so you can run `flake8` to check your
+code with properly excluded errors.
+
+```shell
+flake8
+# or
+python -m flake8
+```
+
 # Useful links
 
 - [pythontutor, visualize python memory][pythontutor main page]
@@ -74,6 +93,13 @@ python -m pytest
 ###### Copyright © 2022 Dorian Turba
 
 [SA-install requirements.txt with pip]: https://stackoverflow.com/a/15593865/6251742
+
 [pip tutorial on youtube]: https://youtu.be/U2ZN104hIcc
+
 [pythontutor main page]: https://pythontutor.com/
+
 [codingame main page]: https://www.codingame.com/home
+
+[PEP 8 page]: https://www.python.org/dev/peps/pep-0008/
+
+[flake8 page]: https://flake8.pycqa.org/en/latest/
