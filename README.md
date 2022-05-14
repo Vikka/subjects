@@ -85,6 +85,13 @@ flake8
 python -m flake8
 ```
 
+### What to do if an error is found
+
+- If the error is raised by flake8 because you didn't use a forbidden feature,
+  you should report it on the [issue tracker][issue tracker].
+- If the error raised by flake8 is about complexity, you should reduce
+  the [cognitive complexity][cognitive complexity PDF] of your code.
+
 # Useful links
 
 - [pythontutor, visualize python memory][pythontutor main page]
@@ -103,3 +110,7 @@ python -m flake8
 [PEP 8 page]: https://www.python.org/dev/peps/pep-0008/
 
 [flake8 page]: https://flake8.pycqa.org/en/latest/
+
+[issue tracker]: https://github.com/Vikka/subjects/issues/new/choose
+
+[cognitive complexity PDF]: https://www.sonarsource.com/docs/CognitiveComplexity.pdf
