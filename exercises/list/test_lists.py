@@ -64,4 +64,3 @@ def test_my_insert(module, original_list, value):
 
     check_list(result)
     assert my_insert(some_list, value) == expected
-
