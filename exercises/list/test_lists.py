@@ -64,3 +64,21 @@ def test_my_insert(module, original_list, value):
 
     check_list(result)
     assert my_insert(some_list, value) == expected
+
+
+@mark.parametrize("first_list, second_list", [
+    ([], []),
+    ([1, 2, 3], [4, 5, 6]),
+    (list(range(1_000)), list(range(1_000, 2_000))),
+])
+def test_my_concat(module, first_list, second_list):
+    expected = first_list + second_list + [...]
+    first_list = to_custom_list(first_list)
+    second_list = to_custom_list(second_list)
+    result = module.my_concat(first_list, second_list)
+
+    def my_concat(_, __):
+        return list(result)
+
+    check_list(result)
+    assert my_concat(first_list, second_list) == expected
