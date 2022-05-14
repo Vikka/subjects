@@ -9,8 +9,10 @@ def module(request):
     Fixture for module
     """
     path = request.node.path.parent.resolve()
-    for p in path.iterdir():
-        if p.suffix == '.py' and not p.name.startswith('test_'):
-            print(f'Importing module: {path.name}.{p.stem}')
-            return import_module(f'{path.name}.{p.stem}')
-    raise Exception('No module found in {}'.format(path))
+    local_fill_me = path/'_fill_me.py'
+    if local_fill_me.exists():
+        print(f'Importing module: exercises.{path.name}._fill_me')
+        return import_module(f'exercises.{path.name}._fill_me')
+
+    print(f'Importing module: exercises.{path.name}.fill_me')
+    return import_module(f'exercises.{path.name}.fill_me')
