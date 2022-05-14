@@ -1,5 +1,7 @@
 # Logic training with Python
 
+Usage of Internet is authorized.
+
 ## Setup
 
 Install requirements:
