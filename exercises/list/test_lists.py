@@ -1,4 +1,4 @@
-from random import randint, choice
+from random import randint, choice, random
 from string import ascii_letters
 
 from pytest import mark
@@ -66,13 +66,37 @@ def test_my_insert(module, original_list, value):
     assert my_insert(some_list, value) == expected
 
 
-@mark.parametrize("first_list, second_list", [
-    ([], []),
-    ([1, 2, 3], [4, 5, 6]),
-    (list(range(1_000)), list(range(1_000, 2_000))),
+@mark.parametrize("first_list, second_list, expected", [
+    ([], [], [...]),
+    ([1, 2, 3], [4, 5, 6], [1, 2, 3, 4, 5, 6, ...]),
+    ([1, 2, 3, ...], ["4", "5", "6", ...], [1, 2, 3, ...]),
+    (["1", "2", "3"], [4, 5, 6], ["1", "2", "3", ...]),
+    ([1, 2.0, "a", ...], [4, 5.0, "b", ...], [1, 2.0, "a", 4, 5.0, "b", ...]),
 ])
-def test_my_concat(module, first_list, second_list):
-    expected = first_list + second_list + [...]
+def test_my_concat(module, first_list, second_list, expected):
+    first_list = to_custom_list(first_list)
+    second_list = to_custom_list(second_list)
+    result = module.my_concat(first_list, second_list)
+
+    def my_concat(_, __):
+        return list(result)
+
+    check_list(result)
+    assert my_concat(first_list, second_list) == expected
+
+
+@mark.parametrize("first_list, second_list", [
+    (list(range(1_000)), list(range(1_000, 2_000))),
+    ([randint(-5, 5), random(), choice(ascii_letters)],
+     [randint(-5, 5), random(), choice(ascii_letters)]),
+])
+def test_my_concat_rand(module, first_list, second_list):
+    full_list = first_list + second_list
+    types = {type(e) for e in first_list}
+    is_same_type = all(type(e) in types for e in second_list)
+    expected = full_list + [...] if full_list and is_same_type \
+        else first_list + [...]
+
     first_list = to_custom_list(first_list)
     second_list = to_custom_list(second_list)
     result = module.my_concat(first_list, second_list)

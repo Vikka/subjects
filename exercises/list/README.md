@@ -60,7 +60,7 @@ exercise 4:
 ```txt
 Create a function "my_concat" that takes two lists as arguments and returns a new list
     that is the concatenation of the two lists. Be careful, the type of the inserted value must be
-    the same as the type of the elements of the list. If it's not, you must return the original list
+    the same as types of elements of the list first. If it's not, you must return the first list
     unchanged.
 
     Exemple:
@@ -70,6 +70,10 @@ Create a function "my_concat" that takes two lists as arguments and returns a ne
         [1, 2, 3, ellipsis]
         >>> my_concat(["1", "2", "3", ...], [4, 5, 6, ...])
         ["1", "2", "3", ellipsis]
+        >>> my_concat([1, 2, 3, ...], [4, 5, "6", ...])
+        [1, 2, 3, ellipsis]
+        >>> my_concat([1, 2.0, "a", ...], [4, 5.0, "b", ...])
+        [1, 2.0, "a", 4, 5.0, "b", ellipsis]
 
     Hints:
         - If you can't increase the size of a list, maybe you should create a bigger one and
