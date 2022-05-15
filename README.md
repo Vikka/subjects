@@ -74,7 +74,11 @@ python -m pytest
 
 PEP 8 is a style guide for Python. You can find it [here][PEP 8 page].
 
-Since you aren't allowed to use some of python features, you should test your
+You must respect two other rules:
+- Line length must be less than 80 characters,
+- Function length must be less than 25 lines.
+
+Since you aren't allowed to use some python features, you should test your
 code with custom rules. This project has a `setup.cfg` file with
 a [flake8][flake8 page] configuration, so you can run `flake8` to check your
 code with properly excluded errors.
