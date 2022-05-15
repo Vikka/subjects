@@ -1,5 +1,5 @@
-from random import randint, choice, random
-from string import ascii_letters
+from random import randint, choice, random, sample
+from string import ascii_letters, ascii_lowercase
 
 from pytest import mark
 
@@ -69,9 +69,9 @@ def test_my_insert(module, original_list, value):
 @mark.parametrize("first_list, second_list, expected", [
     ([], [], [...]),
     ([1, 2, 3], [4, 5, 6], [1, 2, 3, 4, 5, 6, ...]),
-    ([1, 2, 3, ...], ["4", "5", "6", ...], [1, 2, 3, ...]),
+    ([1, 2, 3], ["4", "5", "6",], [1, 2, 3, ...]),
     (["1", "2", "3"], [4, 5, 6], ["1", "2", "3", ...]),
-    ([1, 2.0, "a", ...], [4, 5.0, "b", ...], [1, 2.0, "a", 4, 5.0, "b", ...]),
+    ([1, 2.0, "a"], [4, 5.0, "b"], [1, 2.0, "a", 4, 5.0, "b", ...]),
 ])
 def test_my_concat(module, first_list, second_list, expected):
     first_list = to_custom_list(first_list)
@@ -89,6 +89,7 @@ def test_my_concat(module, first_list, second_list, expected):
     (list(range(1_000)), list(range(1_000, 2_000))),
     ([randint(-5, 5), random(), choice(ascii_letters)],
      [randint(-5, 5), random(), choice(ascii_letters)]),
+    (sample(list(range(10)) + list(ascii_lowercase), randint(5, 20)), [1, 3]),
 ])
 def test_my_concat_rand(module, first_list, second_list):
     full_list = first_list + second_list
@@ -106,3 +107,4 @@ def test_my_concat_rand(module, first_list, second_list):
 
     check_list(result)
     assert my_concat(first_list, second_list) == expected
+
