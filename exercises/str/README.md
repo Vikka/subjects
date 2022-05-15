@@ -11,7 +11,7 @@
 
 ## Exercises
 
-### [Exercice 1: string_length][exercise 1 header]
+### [Exercise 1: string_length][summary header]
 
 Create a function `string_length` that takes a string as argument and returns
 the length of the string. You will use `'\0'` as a character that represents
@@ -37,7 +37,7 @@ the end of a string. It's a SINGLE character (eg. `len('\0') == 1`).
 - No, you can't name the function `SarahConnor`, because it's not PEP8
   compliant.
 
-### [Exercice 2: reverse_string][exercise 2 header]
+### [Exercise 2: reverse_string][summary header]
 
 Create a function `reverse_string` that takes a string as argument and returns
 the string in reverse.
@@ -63,7 +63,7 @@ the string in reverse.
 - Did you notice that the `'\0'` is not reversed? It's because it should always
   be at the end of the string.
 
-### [Exercice 3: is_uppercase][exercise 3 header]
+### [Exercise 3: is_uppercase][summary header]
 
 Create a function `is_uppercase` that takes a string and returns `True` if the
 string is in uppercase, `False` otherwise. If the string is empty, return
@@ -92,7 +92,7 @@ False
   `chr()` to get the character from an integer?
   e.g. `ord('a') == 97`, `chr(97) == 'a'`
 
-### [Exercice 4: is_capitalize][exercise 4 header]
+### [Exercise 4: is_capitalize][summary header]
 
 Create a function `is_capitalize` that takes a string and returns `True` if
 each words of the string is capitalized. If the string is empty (only contains
@@ -117,7 +117,7 @@ False
 
 - Good luck!
 
-### [Exercice 5: my_count][exercise 5 header]
+### [Exercise 5: my_count][summary header]
 
 Create a function `my_count` that takes a string and a character as parameters
 and return the number of occurrence of the character in the string. This is
@@ -145,7 +145,7 @@ case-insensitive (e.g. `"a"` and `"A"` is considered as the same character).
 - How to know if a character is the uppercase version of another character
   without `.upper()` or `.lower()`?
 
-### [Exercice 6: my_split][exercise 6 header]
+### [Exercise 6: my_split][summary header]
 
 Create a function `my_split` that takes a string and returns the number of
 words inside the string. A word is a sequence of characters separated by a
@@ -174,7 +174,7 @@ space. Special characters are considered as part of a word.
 
 [summary header]: #Summary
 
-[exercise 1 header]: #exercise-1-string_length
+[exercise 1 header]: #exercise-1-stringlength
 
 [youtube strings]: https://youtu.be/k9TUPpGqYTo
 
@@ -188,6 +188,6 @@ space. Special characters are considered as part of a word.
 
 [exercise 4 header]: #exercise-4-is_capitalize
 
-[exercise 5 header]: #exercise-4-my_count
+[exercise 5 header]: #exercise-5-my_count
 
-[exercise 6 header]: #exercise-4-my_split
+[exercise 6 header]: #exercise-6-my_split
