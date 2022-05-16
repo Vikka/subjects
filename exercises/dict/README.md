@@ -12,4 +12,4 @@ exercise 1:
         - ...
 ```
 
-###### Copyright © 2022 Dorian Turba
+Copyright © 2022 Dorian Turba

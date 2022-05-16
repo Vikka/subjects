@@ -170,7 +170,7 @@ space. Special characters are considered as part of a word.
 
 - No idea how to help you for this one yet.
 
-###### Copyright © 2022 Dorian Turba
+Copyright © 2022 Dorian Turba
 
 [summary header]: #Summary
 

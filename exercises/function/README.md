@@ -47,7 +47,7 @@ Create a function "my_sum" that takes 4 integers and returns their sum.
 - This function is a training function, it won't be very useful later, but at
   least you can practice function call.
 
-###### Copyright © 2022 Dorian Turba
+Copyright © 2022 Dorian Turba
 
 [summary header]: #Summary
 

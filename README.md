@@ -101,7 +101,7 @@ python -m flake8
 - [pythontutor, visualize python memory][pythontutor main page]
 - [Codingame.com][codingame main page]
 
-###### Copyright © 2022 Dorian Turba
+Copyright © 2022 Dorian Turba
 
 [SA-install requirements.txt with pip]: https://stackoverflow.com/a/15593865/6251742
 

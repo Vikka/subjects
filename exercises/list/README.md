@@ -108,7 +108,7 @@ it's not, you must return the first list unchanged.
 - If you can't increase the size of a list with `.append()`, maybe you should
   create a bigger one and replace its content instead?
 
-###### Copyright © 2022 Dorian Turba
+Copyright © 2022 Dorian Turba
 
 [summary header]: #Summary
 
