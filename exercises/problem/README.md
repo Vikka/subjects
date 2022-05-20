@@ -1,4 +1,4 @@
-# Practice with lists
+# Practice with problems
 
 ## Summary
 
