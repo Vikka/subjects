@@ -13,6 +13,10 @@ pip install -r requirements.txt
 
 ## How to run test suite
 
+### Code in fill_me.py files
+
+If you want to test your code, put your functions inside fill_me.py files.
+
 ### On a specific folder
 
 This is an example, and a good start.
@@ -75,6 +79,7 @@ python -m pytest
 PEP 8 is a style guide for Python. You can find it [here][PEP 8 page].
 
 You must respect two other rules:
+
 - Line length must be less than 80 characters,
 - Function length must be less than 25 lines.
 
