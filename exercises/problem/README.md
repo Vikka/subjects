@@ -65,6 +65,7 @@ Create a function "my_fizzbuzz" that:
 
 #### Hints:
   - Remember, you can create functions and use them as many times as you want.
+  - Proceed step by step.
 
 Copyright © 2022 Dorian Turba
 
