@@ -43,3 +43,37 @@ def test_string_length_rand(module, string):
         return result
 
     assert string_length(string) == expected
+
+
+@mark.parametrize("string, expected", [
+    ("Hello", "olleH"),
+    ("", ""),
+    ("Lorem ipsum dolor sit amet", "tema tis rolod muspi meroL"),
+])
+def test_reverse_string(module, string, expected):
+    string = to_custom_str(string)
+    expected = to_custom_str(expected)
+    result = module.reverse_string(string)
+
+    def reverse_string(_):
+        return result
+
+    check_str(result)
+    assert reverse_string(string) == expected
+
+
+@mark.parametrize("string", [
+    (''.join(sample(ascii_letters, randint(10, 50)))),
+    (''.join([choice(ascii_lowercase) for _ in range(randint(1000, 2000))])),
+])
+def test_reverse_string_rand(module, string):
+    expected = to_custom_str(string[::-1])
+    string = to_custom_str(string)
+    result = module.reverse_string(string)
+
+    def reverse_string(_):
+        return result
+
+    check_str(result)
+    assert reverse_string(string) == expected
+
