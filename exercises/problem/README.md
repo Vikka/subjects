@@ -4,6 +4,7 @@
 
 - [Exercise 1: my_fizzbuzz][exercise 1 header]
 - [Exercise 2: my_median][exercise 2 header]
+- [Exercise 3: product_on_list][exercise 3 header]
 
 ## Exercises
 
@@ -84,11 +85,24 @@ Create a function that return the median value of a list of int.
 225
 >>> my_median([1, 150, 1000, 50, 500, 300, ...])
 225
+>>> my_median([...])
+0
 ```
 
-#### Hints:
-  - Remember, you can create functions and use them as many times as you want.
-  - Proceed step by step.
+### [Exercise 3: product_on_list][summary header]
+
+Create a function that take a list of int and return a new array such that each
+element at index i of the new array is the product of all the numbers in the 
+original array except the one at i.
+
+#### Exemple:
+
+```
+>>> product_on_list([1, 2, 3, 4, 5, ...])
+[120, 60, 40, 30, 24, ...]
+>>> product_on_list([...])
+0
+```
 
 Copyright © 2022 Dorian Turba
 
@@ -96,3 +110,4 @@ Copyright © 2022 Dorian Turba
 
 [exercise 1 header]: #exercise-1-my_list
 [exercise 2 header]: #exercise-2-my_median
+[exercise 3 header]: #exercise-3-product_on_list
