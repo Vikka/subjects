@@ -77,3 +77,22 @@ def test_reverse_string_rand(module, string):
     check_str(result)
     assert reverse_string(string) == expected
 
+
+@mark.parametrize("string, expected", [
+    ("hello", False),
+    ("hello world", False),
+    ("Hello", False),
+    ("", False),
+    ("HELLO", True),
+    ("HELLO WORLD", True),
+    ("HELLO !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~WORLD", True),
+    ("HELLO !\"#$%&'()*+,-./:i;<=>?@[\\]^_`{|}~WORLD", False),
+])
+def test_is_uppercase(module, string, expected):
+    string = to_custom_str(string)
+    result = module.is_uppercase(string)
+
+    def is_uppercase(_):
+        return result
+
+    assert is_uppercase(string) == expected
