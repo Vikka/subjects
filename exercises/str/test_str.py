@@ -82,6 +82,8 @@ def test_reverse_string_rand(module, string):
     ("hello", False),
     ("hello world", False),
     ("Hello", False),
+    ("AAAA", True),
+    ("ZZZZ", True),
     ("", False),
     ("HELLO", True),
     ("HELLO WORLD", True),
