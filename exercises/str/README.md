@@ -107,6 +107,8 @@ False
 True
 >>> is_capitalize("Hello World\0")
 True
+>>> is_capitalize("Hello,World!\0")
+True
 >>> is_capitalize("Hello world\0")
 False
 >>> is_capitalize("\0")

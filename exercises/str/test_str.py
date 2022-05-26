@@ -96,3 +96,25 @@ def test_is_uppercase(module, string, expected):
         return result
 
     assert is_uppercase(string) == expected
+
+
+@mark.parametrize("string, expected", [
+    ("Hello", True),
+    ("HELLO", False),
+    ("HellO", False),
+    ("", False),
+    ("Lorem ipsum dolor sit amet", False),
+    ("Lorem Ipsum Dolor Sit Amet", True),
+    ("HELLO", False),
+    ("HELLO WORLD", False),
+    ("HELLO !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~WORLD", False),
+    ("Hello !\"#$%&'()*+,-./:I;<=>?@[\\]^_`{|}~World", True),
+])
+def test_is_capitalized(module, string, expected):
+    string = to_custom_str(string)
+    result = module.is_capitalized(string)
+
+    def is_capitalized(_):
+        return result
+
+    assert is_capitalized(string) == expected
