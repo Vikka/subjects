@@ -3,6 +3,7 @@
 ## Summary
 
 - [Exercise 1: my_fizzbuzz][exercise 1 header]
+- [Exercise 2: my_median][exercise 2 header]
 
 ## Exercises
 
@@ -70,8 +71,28 @@ Create a function "my_fizzbuzz" that:
   - Remember, you can create functions and use them as many times as you want.
   - Proceed step by step.
 
+### [Exercise 2: my_median][summary header]
+
+Create a function that return the median value of a list of int.
+
+#### Exemple:
+
+```
+>>> my_median([1, 2, 3, 4, 5, 6, 7, 8, 9, ...])
+5
+>>> my_median([1, 50, 150, 300, 500, 1000, ...])
+225
+>>> my_median([1, 150, 1000, 50, 500, 300, ...])
+225
+```
+
+#### Hints:
+  - Remember, you can create functions and use them as many times as you want.
+  - Proceed step by step.
+
 Copyright © 2022 Dorian Turba
 
 [summary header]: #Summary
 
 [exercise 1 header]: #exercise-1-my_list
+[exercise 2 header]: #exercise-2-my_median
