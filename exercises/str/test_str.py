@@ -133,7 +133,6 @@ def test_is_capitalized(module, string, expected):
 ])
 def test_my_count(module, string, letter, expected):
     string = to_custom_str(string)
-    letter = to_custom_str(letter)
     result = module.my_count(string, letter)
 
     def my_count(_):
