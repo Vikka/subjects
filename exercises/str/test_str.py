@@ -120,3 +120,23 @@ def test_is_capitalized(module, string, expected):
         return result
 
     assert is_capitalized(string) == expected
+
+# my_count
+@mark.parametrize("string, letter, expected", [
+    ("Hello", 'H', 1),
+    ("Hello", 'l', 2),
+    ("Hello", 'z', 0),
+    ('', 'z', 0),
+    ('Hello', '', 0),
+    ('aaAA', 'a', 4),
+    ('aaAA', 'A', 4),
+])
+def test_my_count(module, string, letter, expected):
+    string = to_custom_str(string)
+    letter = to_custom_str(letter)
+    result = module.my_count(string, letter)
+
+    def my_count(_):
+        return result
+
+    assert my_count(string) == expected
