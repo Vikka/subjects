@@ -95,7 +95,8 @@ def test_my_concat_rand(module, first_list, second_list):
     full_list = first_list + second_list
     types = {type(e) for e in first_list}
     is_same_type = all(type(e) in types for e in second_list)
-    expected = full_list + [...] if full_list and is_same_type \
+    expected = full_list + [...] \
+        if full_list and is_same_type \
         else first_list + [...]
 
     first_list = to_custom_list(first_list)
