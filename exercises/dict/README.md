@@ -1,8 +1,15 @@
-# Practice with functions
+# Practice with dictionnaries
 
 ## Summary
 
-- [Exercise 1: my_add][exercise 1 header]
+- [Exercise 1: my_keys][exercise 1 header]
+- [Exercise 2: my_values][exercise 2 header]
+- [Exercise 3: my_items][exercise 3 header]
+- [Exercise 4: my_update][exercise 4 header]
+- [Exercise 5: my_merge][exercise 5 header]
+- [Exercise 6: my_filter][exercise 6 header]
+- [Exercise 7: my_del][exercise 7 header]
+- [Exercise 8: my_value_getter][exercise 8 header]
 
 ## Exercises
 
@@ -132,8 +139,18 @@ Copyright © 2022 Dorian Turba
 
 [summary header]: #Summary
 
-[exercise 1 header]: #exercise-1-my_add
+[exercise 1 header]: #exercise-1-my_keys
 
-[youtube 1]: https://youtu.be/u-OmVr_fT4s
+[exercise 2 header]: #exercise-2-my_values
 
-[exercise 2 header]: #exercise-2-my_sum
+[exercise 3 header]: #exercise-3-my_items
+
+[exercise 4 header]: #exercise-4-my_update
+
+[exercise 5 header]: #exercise-5-my_merge
+
+[exercise 6 header]: #exercise-6-my_filter
+
+[exercise 7 header]: #exercise-7-my_del
+
+[exercise 8 header]: #exercise-8-my_value_getter
