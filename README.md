@@ -66,6 +66,8 @@ python -m pytest
 - nonlocal statements,
 - following operators on
   list: ['+', '+=', '==', '>=', '<=', '>', '<', '!=', '*='],
+- following operators on
+  dict: ['+', '+=', '==', '>=', '<=', '>', '<', '!=', '*=', '|', '&'],
 - 3 args form of type,
 - class definitions,
 - in and not in operator,
