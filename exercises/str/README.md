@@ -58,7 +58,7 @@ the string in reverse.
 #### Hints:
 
 - Did you know that you can use negative indexes in a string indexing?
-  e.g. "Hello"[-1] == "l"
+  e.g. "Hello"[-1] == "o"
 - Of course, you can't use `reverse()`, don't even think about it.
 - Did you notice that the `'\0'` is not reversed? It's because it should always
   be at the end of the string.
