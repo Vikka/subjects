@@ -4,7 +4,6 @@
 
 - [Exercise 1: my_fizzbuzz][exercise 1 header]
 - [Exercise 2: my_strange_multiply][exercise 2 header]
-- [Exercise 3: product_on_list][exercise 3 header]
 
 ## Exercises
 
@@ -159,20 +158,6 @@ Create a function "my_strange_multiply" that:
 
     - https://en.wikipedia.org/wiki/Fibonacci_number
 
-
-### [Exercise 3: product_on_list][summary header]
-
-Create a function that take a list of int and return a new array
-
-#### Exemple:
-
-```
->>> product_on_list([1, 2, 3, 4, 5, ...])
-[120, 60, 40, 30, 24, ...]
->>> product_on_list([...])
-0
-```
-
 Copyright © 2022 Dorian Turba
 
 [summary header]: #Summary
@@ -180,5 +165,3 @@ Copyright © 2022 Dorian Turba
 [exercise 1 header]: #exercise-1-my_list
 
 [exercise 2 header]: #exercise-2-my_strange_multiply
-
-[exercise 3 header]: #exercise-3-product_on_list
