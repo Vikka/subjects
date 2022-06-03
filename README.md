@@ -76,6 +76,7 @@ python -m pytest
   arguments, defaults arguments, variadic arguments, variadic keyword
   arguments,
 - slices,
+- packing and unpacking,
 
 ## Respect PEP 8 style
 
