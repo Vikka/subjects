@@ -46,9 +46,8 @@ python -m pytest
 - from imports,
 - defining functions with builtin names,
 - calls of function with builtin names
-  except ['int', 'list', 'dict', 'bool', 'str', 'float', 'tuple', 'None', 
-'type', 'ord', 'chr']
-  ,
+  except ['int', 'list', 'dict', 'bool', 'str', 'float', 'tuple', 'type',
+'ord', 'chr'],
 - calls of methods (eg. 'my_list.append()'),
 - try clauses,
 - break and continue statements,
